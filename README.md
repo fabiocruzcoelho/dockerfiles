@@ -30,7 +30,7 @@ O Docker pode criar imagens automaticamente lendo as instruções de um Dockerfi
 
 + ONBUILD: Define algumas instruções que podem ser realizadas quando alguma determinada ação for executada, é basicamente como uma trigger.
 
-### Exemplo de um arquivo Dockerfile Basico.
+##### Exemplo de um arquivo Dockerfile Basico.
  ```bash
 FROM debian
 MAINTAINER Fabio Coelho <fabiocruzcoelho@gmail.com>
