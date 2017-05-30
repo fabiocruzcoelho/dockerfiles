@@ -38,4 +38,8 @@ RUN apt-get update
 RUN apt-get install -y nginx
 ENTRYPOINT ["/usr/sbin/nginx"]
 EXPOSE 80
- ```
+```
+##### Gerando a imagem a partir do dockerfile
+```bash
+docker build -t fgpit/nginx .
+```
